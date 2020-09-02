@@ -3,8 +3,6 @@ package com.github.yafeiwang1240;
 import com.github.yafeiwang1240.filter.NameFilter;
 import com.github.yafeiwang1240.sink.PrintlnSink;
 import com.github.yafeiwang1240.source.SourceFactory;
-import com.github.yafeiwang1240.transformation.MaxReduce;
-import com.github.yafeiwang1240.transformation.StringToMap;
 import com.github.yafeiwang1240.transformation.StringToTuple2;
 import com.github.yafeiwang1240.transformation.SumReduce;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
